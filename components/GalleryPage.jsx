@@ -1,11 +1,12 @@
 import React from "react";
-import { Arrow2icon, Arrow3icon, LogoIcon } from "./common/Icon";
+import { Arrow2icon, Arrow3icon, LogoIcon, Searchicon } from "./common/Icon";
 import { Map } from "./common/Helper";
+import Image from "next/image";
 
 const GalleryPage = () => {
   return (
     <div className=" font-poppines max-w-[1152px] w-full mx-auto px-4 py-12 lg:p-12 bg-white">
-      <div className=" w-full grid grid-cols-1 mx-auto   sm:grid-cols-2 lg:grid-cols-3 gap-x-[50px] gap-y-[50px]">
+      <div className=" w-full grid grid-cols-1 mx-auto   sm:grid-cols-2 lg:grid-cols-3 gap-x-6 md:gap-x-[50px] gap-y-6 md:gap-y-[50px]">
         <div className=" sm:pl-16 bg-red-950 items-center flex max-sm:justify-center   bg-transparent">
           <div className="">
             <LogoIcon />
@@ -19,31 +20,43 @@ const GalleryPage = () => {
         {Map.map((items, index) => (
           <div
             key={index}
-            className=" max-sm:flex justify-center w-full group relative"
+            className=" max-lg:flex justify-center w-full group relative"
           >
-            <div className=" ">{items.img}</div>
+            <Image
+              className=" rounded-[8px]"
+              src={items.img}
+              alt="image"
+              width={350}
+              height={250}
+            />
             <div className=" z-50 absolute hidden group-hover:block translate-x-[-50%] translate-y-[-50%] top-[50%] left-[50%] ">
-              {items.searchimg}
+              <Searchicon />
             </div>
             <div className=" absolute top-0 hidden group-hover:block ">
-              {items.shadowimg}
+              <Image
+                src="/img/shadow.png"
+                alt="shadow"
+                width={350}
+                height={250}
+              />
+              ,
             </div>
           </div>
         ))}
       </div>
-      <div className=" max-w-[1152px] w-full flex justify-between max-sm:flex-col gap-y-10  mt-12 mx-auto">
+      <div className=" max-w-[1152px] w-full flex justify-between max-sm:flex-col gap-y-6 sm:gap-y-10  mt-8 sm:mt-12 mx-auto">
         <div className=" max-sm:justify-center flex gap-x-5">
-          <button className=" py-5 px-7 rounded-[5px] bg-[#FF9534] text-white text-[20px] font-normal leading-[21px] tracking-[-0.4px]">
+          <button className=" py-2 sm:py-5 px-4 sm:px-7 rounded-[5px] bg-[#FF9534] text-white text-[20px] font-normal leading-[21px] tracking-[-0.4px]">
             1
           </button>
-          <button className=" py-5 px-7 border-[1px] border-[#FF9534] rounded-[5px] bg-white text-[#FF9534] text-[20px] font-normal leading-[21px] tracking-[-0.4px]">
+          <button className=" py-2 sm:py-5 px-4 sm:px-7 border-[1px] border-[#FF9534] rounded-[5px] bg-white text-[#FF9534] text-[20px] font-normal leading-[21px] tracking-[-0.4px]">
             2
           </button>
-          <button className=" py-5 px-7 border-[1px] rounded-[5px] border-[#FF9534]  bg-white text-[#FF9534] text-[20px] font-normal leading-[21px] tracking-[-0.4px]">
+          <button className="py-2 sm:py-5 px-4 sm:px-7 border-[1px] rounded-[5px] border-[#FF9534]  bg-white text-[#FF9534] text-[20px] font-normal leading-[21px] tracking-[-0.4px]">
             3
           </button>
         </div>
-        <div className=" rounded-[5px] py-5 max-sm:mx-auto max-w-[160px] w-full justify-between px-4 flex items-center bg-[#FF9534]">
+        <div className=" rounded-[5px] py-2 sm:py-5 max-sm:mx-auto max-w-[135px] sm:max-w-[130px] w-full justify-between px-4 flex items-center bg-[#FF9534]">
           <button className=" flex items-center gap-2">
             <Arrow2icon />
             <p

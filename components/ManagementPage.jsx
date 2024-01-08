@@ -9,7 +9,7 @@ const ManagementPage = () => {
       {/* main */}
       <div>
         <div className="max-w-[1152px] w-full mx-auto px-[12px]">
-          <div className="max-w-[1050px] w-full mx-auto flex flex-col md:flex-row items-center justify-between gap-5">
+          <div className="max-w-[1050px] w-full mx-auto flex flex-col lg:flex-row items-center pt-7 pb-12 justify-between gap-5">
             <div>
               <Image
                 className="lg:w-[500px] lg:h-[500px]"
@@ -36,7 +36,7 @@ const ManagementPage = () => {
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem
                 ipsum dolor sit amet.
               </p>
-              <div className="flex gap-[25px]">
+              <div className="flex gap-[25px] mt-8">
                 <Link href="">
                   <FrIcon />{" "}
                 </Link>
@@ -56,8 +56,8 @@ const ManagementPage = () => {
       </div>
 
       {/* cards */}
-      <div className="bg-[#F2F2F2]">
-        <div className="pt-[41px] flex justify-center max-w-[285px] w-full mx-auto relative px-[12px]">
+      <div className="bg-[#F2F2F2] pb-8 md:pb-20">
+        <div className="pt-10 flex justify-center max-w-[285px] w-full mx-auto relative px-[12px]">
           <Image
             className="absolute left-[-4%] top-[37%]"
             src="/img/Pattern.png"
@@ -73,7 +73,7 @@ const ManagementPage = () => {
           {Data.map((item, index) => (
             <div
               key={index}
-              className="max-w-[264px] w-full h-[199px] rounded-[10px]  bg-white shadow-[0px_-1px_10px_2px_rgba(0,0,0,0.10);] relative"
+              className="max-w-[264px] w-full pb-4 rounded-[10px]  bg-white shadow-[0px_-1px_10px_2px_rgba(0,0,0,0.10);] relative"
             >
               <Image
                 className="absolute top-[-30%] left-[27%] mx-auto"
@@ -91,14 +91,16 @@ const ManagementPage = () => {
               {item.logo.map((listt, listindex) => (
                 <div
                   key={listindex}
-                  className="flex gap-[20px] mt-[18px] justify-center mx-auto "
+                  className="flex gap-[20px] mt-8  justify-center mx-auto "
                 >
-                  <div className="hover:cursor-pointer hover:scale-110">
-                    <Link href="">{listt.facebook}</Link>
-                  </div>
-                  <div className="hover:cursor-pointer hover:scale-110">
-                    <Link href="">{listt.whatsapp}</Link>
-                  </div>
+                  <Link href="">
+                    <div className="hover:cursor-pointer  hover:scale-110">
+                      {listt.facebook}
+                    </div>
+                  </Link>
+                  <Link href="">
+                    <div className=" hover:scale-110">{listt.whatsapp}</div>
+                  </Link>
                   <div className="hover:cursor-pointer hover:scale-110">
                     <Link href="">{listt.insta}</Link>
                   </div>

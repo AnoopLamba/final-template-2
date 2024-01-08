@@ -153,73 +153,41 @@ export const Cards = [
     img: "/img/talking.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/friends.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/smile.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/working.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/cute.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/childu.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/Footbal.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
   {
     img: "/img/Hands.png",
     name: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
     master: "Headmaster",
-    messag: <MessageIcons />,
-    number: <NumberIcons />,
-    eye: <EyeIcons />,
-    numbers: <TwIcons />,
   },
 ];
 // sonu helper data end
@@ -227,158 +195,52 @@ export const Cards = [
 // akshay helper data start
 export const Map = [
   {
-    img: (
-      <Image
-        src="/img/twochildren1.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/twochildren1.png",
   },
 
   {
-    img: (
-      <Image
-        src="/img/twochildern2.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/twochildern2.png",
   },
 
   {
-    img: (
-      <Image
-        src="/img/teacher3.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/teacher3.png",
   },
 
   {
-    img: (
-      <Image
-        src="/img/girlboy4.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/girlboy4.png",
   },
 
   {
-    img: (
-      <Image
-        src="/img/twochildren1.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/twochildren1.png",
   },
 
   {
-    img: (
-      <Image src="/img/check5.png" alt="error here" width={350} height={250} />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/check5.png",
   },
   {
-    img: (
-      <Image
-        src="/img/drawing6.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/drawing6.png",
   },
   {
-    img: (
-      <Image
-        src="/img/fullchild7.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/fullchild7.png",
   },
   {
-    img: (
-      <Image src="/img/car8.png" alt="twochildren" width={350} height={250} />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/car8.png",
   },
   {
-    img: (
-      <Image
-        src="/img/techbook9.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/techbook9.png",
   },
 
   {
-    img: (
-      <Image
-        src="/img/teacher3.png"
-        alt="error images"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/teacher3.png",
   },
   {
-    img: (
-      <Image
-        src="/img/alyan11.png"
-        alt="twochildren"
-        width={350}
-        height={250}
-      />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/alyan11.png",
   },
   {
-    img: (
-      <Image src="/img/boy12.png" alt="twochildren" width={350} height={250} />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/boy12.png",
   },
   {
-    img: (
-      <Image src="/img/last13.png" alt="twochildren" width={350} height={250} />
-    ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
+    img: "/img/last13.png",
   },
 ];
 // aksahy helper data end
