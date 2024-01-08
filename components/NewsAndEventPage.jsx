@@ -3,10 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { Cards } from "./common/Helper";
 import { AdminIcons, MessageIcons, TimeIcons } from "./common/Icon";
+import HeaderBanner from "./common/HeaderBanner";
 
 const NewsAndEventPage = () => {
   return (
     <>
+      {/* Banner */}
+      <HeaderBanner heading="News & Event" />
+
       <div className="max-w-[1152px] w-full sm:mt-[50px] p-4 sm:px-[50px] ">
         <div className="max-w-[1052px] w-full ">
           <div className="w-full  relative ">

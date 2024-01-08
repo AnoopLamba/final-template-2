@@ -235,8 +235,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 
   {
@@ -248,8 +246,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 
   {
@@ -261,8 +257,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 
   {
@@ -274,8 +268,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 
   {
@@ -287,16 +279,12 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 
   {
     img: (
       <Image src="/img/check5.png" alt="error here" width={350} height={250} />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
@@ -307,8 +295,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
@@ -319,15 +305,11 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
       <Image src="/img/car8.png" alt="twochildren" width={350} height={250} />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
@@ -338,8 +320,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 
   {
@@ -351,8 +331,6 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
@@ -363,22 +341,16 @@ export const Map = [
         height={250}
       />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
       <Image src="/img/boy12.png" alt="twochildren" width={350} height={250} />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
   {
     img: (
       <Image src="/img/last13.png" alt="twochildren" width={350} height={250} />
     ),
-    shadowimg: <Image src="/img/shadow.png" width={350} height={250} />,
-    searchimg: <Searchicon />,
   },
 ];
 // aksahy helper data end

@@ -2,10 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { FrIcon, IrIcon, TrIcon, WrIcon } from "./common/Icon";
 import { Data } from "./common/Helper";
+import HeaderBanner from "./common/HeaderBanner";
 
 const ManagementPage = () => {
   return (
     <>
+      {/* Banner */}
+      <HeaderBanner heading="Management" />
       {/* main */}
       <div>
         <div className="max-w-[1152px] w-full mx-auto px-[12px]">

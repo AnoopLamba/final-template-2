@@ -1,8 +1,12 @@
 import Image from "next/image";
+import HeaderBanner from "./common/HeaderBanner";
 
 const AboutUs = () => {
   return (
     <>
+      {/* Banner */}
+      <HeaderBanner heading="About Us" />
+
       {/* Who */}
       <div className="max-w-[1052px] w-full mx-auto lg:px-3 px-4">
         <div className="pt-[50px]">
