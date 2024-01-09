@@ -2,15 +2,11 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Cards } from "./common/Helper";
-import { AdminIcons, MessageIcons, TimeIcons } from "./common/Icon";
-import HeaderBanner from "./common/HeaderBanner";
+import { AdminIcons, EyeIcons, MessageIcons, TimeIcons } from "./common/Icon";
 
 const NewsAndEventPage = () => {
   return (
     <>
-      {/* Banner */}
-      <HeaderBanner heading="News & Event" />
-
       <div className="max-w-[1152px] w-full sm:mt-[50px] p-4 sm:px-[50px] ">
         <div className="max-w-[1052px] w-full ">
           <div className="w-full  relative ">
@@ -26,19 +22,19 @@ const NewsAndEventPage = () => {
               </p>
             </div>
           </div>
-          <p className="uppercase text-[16px] font-bold mt- font-poppins leading-normal text-[#FF9534]">
+          <p className="uppercase mt-5 text-[16px] font-bold mt- font-poppins leading-normal text-[#FF9534]">
             Top Event
           </p>
           <div className="max-w-[622px] w-full mt-[10px] flex justify-between gap-5 flex-wrap items-center">
-            <div className="max-w-[103px] w-full flex justify-between ">
-              <p className="max-w-[25px] w-full">
+            <div className="max-w-[103px] w-full flex items-center justify-between ">
+              <div className="max-w-[25px] w-full">
                 <AdminIcons />
-              </p>
+              </div>
               <p className=" max-w-[68px] w-full  text-[20px] font-semibold leading-[32px] font-poppins  ">
                 Admin
               </p>
             </div>
-            <div className="max-w-[229px] w-full flex justify-between ">
+            <div className="max-w-[229px] w-full flex justify-between items-center ">
               <p className="max-w-[30px] w-full">
                 <TimeIcons />
               </p>
@@ -46,7 +42,7 @@ const NewsAndEventPage = () => {
                 September 10, 2021
               </p>
             </div>
-            <div className="max-w-[190px] w-full flex justify-between ">
+            <div className="max-w-[190px] w-full flex justify-between items-center ">
               <p className="max-w-[25px] w-full">
                 <MessageIcons />
               </p>
@@ -60,7 +56,7 @@ const NewsAndEventPage = () => {
             temp incit ut labore dolore magnaaliqua. computer science students
             Ut enim ad minimveniam. Lorem ipsum.
           </div>
-          <button className=" max-w-[203px] w-full sm:px-5 sm:py-7 px-2 py-4  hover:scale-105 mt-5 mb-[30px] flex bg-[#FF9534] items-center rounded-[5px]  justify-between">
+          <button className=" max-w-[203px] w-full sm:px-5 sm:py-7 px-2 py-4  hover:scale-105 mt-5 flex bg-[#FF9534] items-center rounded-[5px]  justify-between">
             <p className="max-w-[107px] w-ful font-poppins text-[20px] font-normal leading-[21px] tracking-[-0.4px] text-white ">
               Read more
             </p>
@@ -104,32 +100,37 @@ const NewsAndEventPage = () => {
               className="max-w-[344px] w-full rounded-[10px] mx-auto shadow-[0px_0px_20px_2px]   shadow-[rgba(0,0,0,0.20)] pb-[20px] "
             >
               <Image src={items.img} width={344} height={232} alt="img" />
-              <p className="max-w-[282px] w-full text-[20px] max-sm:px-1 text-[#000] font-normal  leading-[32px] mx-auto mt-[34px font-poppins ">
-                {items.name}
-              </p>
-              <div className=" max-w-[284px] w-full mx-auto max-sm:px-1  mt-[10px] flex justify-between items-center  ">
-                <p className="max-w-[127px] w-full text-[20px] font-medium leading-[32px font-poppins  ">
-                  {items.master}
+              <div className=" px-4 pt-8">
+                <p className="max-w-[282px] w-full text-[20px]  text-[#000] font-normal  leading-[32px] mx-auto  font-poppins ">
+                  {items.name}
                 </p>
-                <Link
-                  href=""
-                  className="max-w-[60px] w-full flex justify-between items-center "
-                >
-                  <span>{items.messag}</span>
-                  <span>{items.number}</span>
-                </Link>
-                <Link
-                  href=""
-                  className="max-w-[60px] w-full flex justify-between items-center "
-                >
-                  <span>{items.eye}</span>
-                  <span>{items.numbers}</span>
-                </Link>
+                <div className=" max-w-[284px] w-full mx-auto max-sm:px-1  mt-[10px] flex justify-between items-center  ">
+                  <p className="max-w-[127px] w-full text-[20px] font-medium leading-[32px font-poppins  ">
+                    {items.master}
+                  </p>
+                  <Link
+                    href=""
+                    className="max-w-[60px] w-full flex justify-between items-center "
+                  >
+                    <MessageIcons />
+                    <h4 className=" text-black text-[20px] font-poppins font-medium leading-normal">
+                      10
+                    </h4>
+                  </Link>
+                  <Link
+                    href=""
+                    className="max-w-[60px] w-full flex justify-between items-center "
+                  >
+                    <EyeIcons />
+                    <h4 className=" text-black text-[20px] font-poppins font-medium leading-normal">
+                      29
+                    </h4>
+                  </Link>
+                </div>
+                <p className="max-w-[284px] w-full mx-auto max-sm:px-1 mx-aut font-poppins text-[19px] font-normal  leading-[32px] mt-5 ">
+                  September 10, 2021
+                </p>
               </div>
-
-              <p className="max-w-[284px] w-full max-sm:px-1 mx-aut font-poppins text-[19px] font-normal  leading-[32px] mt-5 ">
-                September 10, 2021
-              </p>
             </div>
           ))}
           <div className="w-full  sm:flex justify-between  mt-[50px] items-center">
