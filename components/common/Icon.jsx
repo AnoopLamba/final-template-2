@@ -475,6 +475,7 @@ export const LogoIcon = () => {
   return (
     <>
       <svg
+        className="max-sm:w-8 max-sm:h-8"
         width="51"
         height="50"
         viewBox="0 0 51 50"
@@ -817,3 +818,24 @@ export const Mapicon = () => {
   );
 };
 //   akshay icon end
+
+// yash icon start
+export const BtnArrowRightIcon = () => {
+  return (
+    <svg
+      width="18"
+      height="7"
+      viewBox="0 0 18 7"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        className="group-hover:stroke-[#FF9534]"
+        d="M1 3.7658L17 3.76268M17 3.76268L13.5 0.999756M17 3.76268L13.5 6.00024"
+        stroke="white"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};

@@ -3,3 +3,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* yash styling data */
+.mySwiper1 .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "" !important;
+  background-image: url(/img/rightslider.png);
+  width: 150px;
+  height: 70px;
+  padding-right: 100px;
+  background-repeat: no-repeat;
+}
+.mySwiper1 .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "" !important;
+  background-image: url(/img/leftslider.png);
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-left: 50px;
+}
+
+@media (max-width: 640px) {
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    display: none;
+  }
+  .swiper-button-next:after,
+  .swiper-rtl .swiper-button-prev:after {
+    display: none;
+  }
+}
+
+.mySwiper2 .swiper-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.mySwiper2 .swiper-button-next:after {
+  display: none;
+}
+.mySwiper2 .swiper-button-prev:after {
+  display: none;
+}
+/* yash styling data end */

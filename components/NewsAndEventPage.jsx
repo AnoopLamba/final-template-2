@@ -2,7 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Cards } from "./common/Helper";
-import { AdminIcons, EyeIcons, MessageIcons, TimeIcons } from "./common/Icon";
+import {
+  AdminIcons,
+  BtnArrowRightIcon,
+  EyeIcons,
+  MessageIcons,
+  TimeIcons,
+} from "./common/Icon";
 
 const NewsAndEventPage = () => {
   return (
@@ -61,20 +67,7 @@ const NewsAndEventPage = () => {
               Read more
             </p>
             <span>
-              <svg
-                width="18"
-                height="7"
-                viewBox="0 0 18 7"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1 3.7658L17 3.76268M17 3.76268L13.5 0.999756M17 3.76268L13.5 6.00024"
-                  stroke="white"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <BtnArrowRightIcon />
             </span>
           </button>
         </div>

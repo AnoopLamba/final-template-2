@@ -4,9 +4,7 @@ import {
   FrIcon,
   IrIcon,
   MessageIcons,
-  NumberIcons,
   Searchicon,
-  TwIcons,
   WrIcon,
 } from "./Icon";
 
@@ -350,3 +348,80 @@ export const Map = [
   },
 ];
 // aksahy helper data end
+
+// yash data start
+export const latestblog = [
+  {
+    img: "/img/latestfirst.png",
+    lorem: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
+    quality: "Headmaster",
+    comenticon: <MessageIcons />,
+    coment: "10",
+    viewicon: <EyeIcons />,
+    view: "29",
+    date: "September 10, 2021 ",
+  },
+  {
+    img: "/img/latestsecond.png",
+    lorem: "Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...",
+    quality: "Headmaster",
+    comenticon: <MessageIcons />,
+    coment: "10",
+    viewicon: <EyeIcons />,
+    view: "29",
+    date: "September 10, 2021 ",
+  },
+];
+export const team = [
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+  {
+    img: "/img/teamprofile1.png",
+    name: "Afuwape J. Abiodun ",
+    quality: "Headmaster",
+  },
+];
+// yash data end
