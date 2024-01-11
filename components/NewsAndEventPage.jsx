@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Cards } from "./common/Helper";
 import {
   AdminIcons,
+  Arrow2icon,
+  Arrow3icon,
   BtnArrowRightIcon,
   EyeIcons,
   MessageIcons,
@@ -62,8 +64,11 @@ const NewsAndEventPage = () => {
             temp incit ut labore dolore magnaaliqua. computer science students
             Ut enim ad minimveniam. Lorem ipsum.
           </div>
-          <button className=" max-w-[203px] w-full sm:px-5 sm:py-7 px-2 py-4  hover:scale-105 mt-5 flex bg-[#FF9534] items-center rounded-[5px]  justify-between">
-            <p className="max-w-[107px] w-ful font-poppins text-[20px] font-normal leading-[21px] tracking-[-0.4px] text-white ">
+          <button
+            className=" max-w-[203px] w-full sm:px-5 sm:py-7 px-2 py-4 mt-5 flex bg-[#FF9534] items-center border-2 border-[#FF9534] hover:bg-transparent rounded-[5px] justify-between group
+          transition-all duration-200 ease-in-out"
+          >
+            <p className="max-w-[107px] w-ful font-poppins text-[20px] font-normal leading-[21px] tracking-[-0.4px] text-white group-hover:text-[#FF9534] transition-all duration-200 ease-in-out">
               Read more
             </p>
             <span>
@@ -103,7 +108,7 @@ const NewsAndEventPage = () => {
                   </p>
                   <Link
                     href=""
-                    className="max-w-[60px] w-full flex justify-between items-center "
+                    className="max-w-[60px] w-full flex justify-between items-center hover:scale-105 transition-all duration-150 ease-in-out"
                   >
                     <MessageIcons />
                     <h4 className=" text-black text-[20px] font-poppins font-medium leading-normal">
@@ -112,7 +117,7 @@ const NewsAndEventPage = () => {
                   </Link>
                   <Link
                     href=""
-                    className="max-w-[60px] w-full flex justify-between items-center "
+                    className="max-w-[60px] w-full flex justify-between items-center hover:scale-105 transition-all duration-150 ease-in-out"
                   >
                     <EyeIcons />
                     <h4 className=" text-black text-[20px] font-poppins font-medium leading-normal">
@@ -138,52 +143,20 @@ const NewsAndEventPage = () => {
                 3
               </button>
             </div>
-            <button className=" max-w-[160px] w-full sm:px-4 sm:py-5 px-2 py-3 max-sm:mx-auto max-sm:mt-5 flex bg-[#FF9534] items-center rounded-[5px]  justify-between">
-              <Link
-                href=""
-                className="max-w-[50px] w-full flex  justify-between items-center hover:scale-105 "
-              >
-                <span>
-                  <svg
-                    width="6"
-                    height="8"
-                    viewBox="0 0 6 8"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0.561203 3.53713C0.270231 3.77712 0.270231 4.22288 0.561203 4.46287L4.26823 7.52038C4.65957 7.84315 5.25 7.56479 5.25 7.0575L5.25 0.942497C5.25 0.435216 4.65957 0.156849 4.26823 0.479624L0.561203 3.53713Z"
-                      fill="white"
-                    />
-                  </svg>
-                </span>
-                <span className="max-w-[33px] w-ful font-poppins text-[14px] font-normal leading-[21px] tracking-[-0.4px] text-white ">
+            <div className="max-sm:mx-auto max-w-[160px] w-full justify-center flex items-center">
+              <button className="flex items-center gap-2 bg-[#FF9534] py-5 px-4 rounded-tl-[5px] rounded-bl-[5px] border-2 border-[#FF9534] hover:bg-transparent group transition-all duration-150 ease-in-out">
+                <Arrow2icon />
+                <p className=" text-white text-[14px] font-medium leading-[21px] group-hover:text-[#FF9534] transition-all duration-150 ease-in-out">
                   Prev
-                </span>
-              </Link>
-              <Link
-                href=""
-                className="max-w-[50px] w-full flex hover:scale-105  justify-between items-center "
-              >
-                <span className="max-w-[33px] w-ful font-poppins text-[14px] font-normal leading-[21px] tracking-[-0.4px] text-white ">
+                </p>
+              </button>
+              <button className=" flex items-center gap-2 bg-[#FF9534] py-5 px-4 rounded-tr-[5px] rounded-br-[5px] border-2 border-[#FF9534] hover:bg-transparent group transition-all duration-150 ease-in-out">
+                <p className=" text-white text-[14px] font-medium leading-[21px] group-hover:text-[#FF9534] transition-all duration-150 ease-in-out">
                   Next
-                </span>
-                <span>
-                  <svg
-                    width="6"
-                    height="8"
-                    viewBox="0 0 6 8"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5.4388 4.46287C5.72977 4.22288 5.72977 3.77712 5.4388 3.53713L1.73177 0.479624C1.34043 0.156848 0.75 0.435215 0.75 0.942496V7.0575C0.75 7.56478 1.34043 7.84315 1.73177 7.52038L5.4388 4.46287Z"
-                      fill="white"
-                    />
-                  </svg>
-                </span>
-              </Link>
-            </button>
+                </p>
+                <Arrow3icon />
+              </button>
+            </div>
           </div>
         </div>
       </div>

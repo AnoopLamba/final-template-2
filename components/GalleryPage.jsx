@@ -65,10 +65,7 @@ const GalleryPage = () => {
               </p>
             </button>
             <button className=" flex items-center gap-2">
-              <p
-                className=" text-white text-[14px]  font-medium leading-[21px]
-        "
-              >
+              <p className=" text-white text-[14px]  font-medium leading-[21px]">
                 Next
               </p>
               <Arrow3icon />
