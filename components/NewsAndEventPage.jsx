@@ -15,8 +15,8 @@ import {
 const NewsAndEventPage = () => {
   return (
     <>
-      <div className="max-w-[1152px] w-full sm:mt-[50px] p-4 sm:px-[50px] ">
-        <div className="max-w-[1052px] w-full ">
+      <div className="max-w-[1152px] w-full sm:mt-[50px] max-lg:px-4 mx-auto">
+        <div className="max-w-[1052px] w-full mx-auto pb-[30px]">
           <div className="w-full  relative ">
             <Image
               src="/img/Grouppic.png"
