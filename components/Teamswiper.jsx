@@ -92,7 +92,7 @@ export default function Teamswiper() {
           ))}
         </Swiper>
         {/* Custom Navigatin Buttons */}
-        <div className="swiper2-prev-btn max-sm:hidden absolute top-[50%] translate-y-[-50%] left-[-70px] z-10">
+        <div className="swiper2-prev-btn max-sm:hidden absolute top-[50%] translate-y-[-50%] left-[-70px] z-10 cursor-pointer">
           <Image
             src="/img/secondswiperleft.png"
             width={50}
@@ -100,7 +100,7 @@ export default function Teamswiper() {
             alt="prev button"
           />
         </div>
-        <div className="swiper2-next-btn max-sm:hidden absolute top-[50%] translate-y-[-50%] right-[-70px] z-10">
+        <div className="swiper2-next-btn max-sm:hidden absolute top-[50%] translate-y-[-50%] right-[-70px] z-10 cursor-pointer">
           <Image
             src="/img/secondright.png"
             width={50}

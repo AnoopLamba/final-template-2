@@ -54,18 +54,17 @@ const GalleryPage = () => {
               3
             </button>
           </div>
-          <div className=" rounded-[5px] py-5 max-sm:mx-auto max-w-[160px] w-full justify-between px-4 flex items-center bg-[#FF9534]">
-            <button className=" flex items-center gap-2">
+
+          {/* pagination prev and next buttons */}
+          <div className="max-sm:mx-auto max-w-[160px] w-full justify-center flex items-center">
+            <button className="flex items-center gap-2 bg-[#FF9534] py-5 px-4 rounded-tl-[5px] rounded-bl-[5px] border-2 border-[#FF9534] hover:bg-transparent group transition-all duration-150 ease-in-out">
               <Arrow2icon />
-              <p
-                className=" text-white text-[14px]  font-medium leading-[21px]
-        "
-              >
+              <p className=" text-white text-[14px] font-medium leading-[21px] group-hover:text-[#FF9534] transition-all duration-150 ease-in-out">
                 Prev
               </p>
             </button>
-            <button className=" flex items-center gap-2">
-              <p className=" text-white text-[14px]  font-medium leading-[21px]">
+            <button className=" flex items-center gap-2 bg-[#FF9534] py-5 px-4 rounded-tr-[5px] rounded-br-[5px] border-2 border-[#FF9534] hover:bg-transparent group transition-all duration-150 ease-in-out">
+              <p className=" text-white text-[14px] font-medium leading-[21px] group-hover:text-[#FF9534] transition-all duration-150 ease-in-out">
                 Next
               </p>
               <Arrow3icon />

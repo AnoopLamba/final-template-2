@@ -79,7 +79,7 @@ const ContactUs = () => {
               />
             </div>
             <div className=" text-end">
-              <button className=" text-white text-[20px] font-medium leading-[21px] tracking-[-0.4px] hover:scale-110 mt-5  py-5 px-7 border-[2px] border-white rounded-[5px] ">
+              <button className=" text-white text-[20px] font-medium leading-[21px] tracking-[-0.4px] mt-5  py-5 px-7 border-[2px] border-white rounded-[5px] hover:bg-white hover:text-[#FF9534] transition-all duration-150 ease-in-out">
                 Send message
               </button>
             </div>

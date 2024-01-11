@@ -133,16 +133,18 @@ const NewsAndEventPage = () => {
           ))}
           <div className="w-full  sm:flex justify-between  mt-[50px] items-center">
             <div className="max-w-[256px] w-full flex justify-between max-sm:mx-auto">
-              <button className="max-w-[67px] w-full sm:p-[20px_30px] px-2 py-2 hover:text-white border border-[#FF9534] rounded-[5px] text-[20px] text-[#FF9534] font-normal leading-[21px] hover:bg-[#FF9534]">
+              <button className="max-w-[67px] w-full sm:p-[20px_30px] px-2 py-2 hover:text-white border border-[#FF9534] rounded-[5px] text-[20px] text-white font-normal leading-[21px] bg-[#FF9534]">
                 1
               </button>
-              <button className="max-w-[72px] w-full  sm:p-[20px_30px] px-2 py-2 hover:text-white border border-[#FF9534] rounded-[5px] text-[20px] text-[#FF9534] font-normal leading-[21px] hover:bg-[#FF9534]">
+              <button className="max-w-[72px] w-full  sm:p-[20px_30px] px-2 py-2 border border-[#FF9534] rounded-[5px] text-[20px] text-[#FF9534] font-normal leading-[21px] ">
                 2
               </button>
-              <button className="max-w-[72px] w-full  sm:p-[20px_30px] px-2 py-3 hover:text-white border border-[#FF9534] rounded-[5px] text-[20px] text-[#FF9534] font-normal leading-[21px] hover:bg-[#FF9534]">
+              <button className="max-w-[72px] w-full  sm:p-[20px_30px] px-2 py-3 border border-[#FF9534] rounded-[5px] text-[20px] text-[#FF9534] font-normal leading-[21px] ">
                 3
               </button>
             </div>
+
+            {/* pagination prev and next buttons */}
             <div className="max-sm:mx-auto max-w-[160px] w-full justify-center flex items-center">
               <button className="flex items-center gap-2 bg-[#FF9534] py-5 px-4 rounded-tl-[5px] rounded-bl-[5px] border-2 border-[#FF9534] hover:bg-transparent group transition-all duration-150 ease-in-out">
                 <Arrow2icon />
