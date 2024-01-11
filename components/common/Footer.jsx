@@ -12,6 +12,8 @@ import {
 import Link from "next/link";
 
 const Footer = () => {
+  const latestYear = new Date().getFullYear();
+
   return (
     <div>
       <div className='bg-[url("/img/footer-bg.png")] bg-no-repeat bg-cover py-[75px] bg-center w-full px-3'>
@@ -79,36 +81,36 @@ const Footer = () => {
               Links
             </p>
 
-            <Link href="">
+            <Link href="/">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px]">
                 Home
               </p>
             </Link>
-            <Link href="" target="_blank">
+            <Link href="/about">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px]">
                 About us
               </p>
             </Link>
 
-            <Link href="" target="_blank">
+            <Link href="/management">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px]">
-                Managements
+                Management
               </p>
             </Link>
 
-            <Link href="" target="_blank">
+            <Link href="/news">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px]">
                 News & Event
               </p>
             </Link>
 
-            <Link href="" target="_blank">
+            <Link href="/gallery">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px]">
                 Gallery
               </p>
             </Link>
 
-            <Link href="" target="_blank">
+            <Link href="/contact">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px]">
                 Contact us
               </p>
@@ -125,7 +127,7 @@ const Footer = () => {
               Lorem ipsum dolor siter amet, consectetur adipising elitsed do
               sum.
             </p>
-            <Link href="" target="_blank">
+            <Link href="">
               <p className="text-black hover:text-[#FF9534] hover:duration-300 font-normal leading-[33px] font-poppins text-[20px] flex items-center gap-1">
                 <EmailIcon /> Loremipilum11@gmail.com
               </p>
@@ -134,11 +136,11 @@ const Footer = () => {
             <div className="text-black hover:text-[#FF9534] max-sm:justify-center hover:duration-300 font-normal leading-[33px] font-poppins text-[20px] flex gap-1">
               <PhoneIcon />
               <div>
-                <Link href="" target="_blank">
+                <Link href="">
                   <p> +234 805 029 1265</p>
                 </Link>
 
-                <Link href="" target="_blank">
+                <Link href="">
                   <p className="pt-2"> +234 907 228 0656</p>
                 </Link>
               </div>
@@ -150,28 +152,28 @@ const Footer = () => {
             <p className="text-[#FF9534]  font-semibold leading-normal font-poppins text-[25px]">
               Social Contact
             </p>
-            <Link href="" target="_blank">
+            <Link href="">
               <p className="text-black max-sm:justify-center hover:text-[#FF9534] hover:duration-300 font-normal leading-[21px] font-poppins text-[20px] flex items-center gap-[20px]">
                 <FbIcon /> Facebook
               </p>
             </Link>
 
-            <Link href="" target="_blank">
+            <Link href="">
               <p className="text-black max-sm:justify-center font-normal hover:text-[#FF9534] hover:duration-300 leading-[21px] font-poppins text-[20px] flex items-center gap-[20px]">
                 <TWitterIcon /> Twitter
               </p>
             </Link>
-            <Link href="" target="_blank">
+            <Link href="">
               <p className="text-black font-normal max-sm:justify-center hover:text-[#FF9534] hover:duration-300 leading-[21px] font-poppins text-[20px] flex items-center gap-[20px]">
                 <InstaIcon /> Instagram
               </p>
             </Link>
-            <Link href="" target="_blank">
+            <Link href="">
               <p className="text-black font-normal max-sm:justify-center hover:text-[#FF9534] hover:duration-300 leading-[21px] font-poppins text-[20px] flex items-center gap-[20px]">
                 <WtIcon /> Whatsapp
               </p>
             </Link>
-            <Link href="" target="_blank">
+            <Link href="">
               <p className="text-black font-normal max-sm:justify-center hover:text-[#FF9534] hover:duration-300 leading-[21px] font-poppins text-[20px] flex items-center gap-[20px]">
                 <TgIcon /> Telegram
               </p>
@@ -181,7 +183,7 @@ const Footer = () => {
         {/* copy--right */}
         <div>
           <p className="text-black font-poppins font-medium text-center mt-[57px]">
-            Copyright © 2021. All Right Reserved.
+            Copyright © {latestYear}. All Right Reserved.
           </p>
         </div>
       </div>

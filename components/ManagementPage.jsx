@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FrIcon, IrIcon, TrIcon, WrIcon } from "./common/Icon";
+import { FrIcon, IrIcon, LogoIcon, TrIcon, WrIcon } from "./common/Icon";
 import { Data } from "./common/Helper";
 import HeaderBanner from "./common/HeaderBanner";
 
@@ -15,7 +15,7 @@ const ManagementPage = () => {
           <div className="max-w-[1050px] w-full mx-auto flex flex-col lg:flex-row items-center pt-7 pb-12 justify-between gap-5">
             <div>
               <Image
-                className="lg:w-[500px] lg:h-[500px]"
+                className="max-sm:w-[340px] max-sm:h-[300px]"
                 src="/img/Vector1.png"
                 width={500}
                 height={500}
@@ -40,16 +40,28 @@ const ManagementPage = () => {
                 ipsum dolor sit amet.
               </p>
               <div className="flex gap-[25px] mt-8">
-                <Link href="">
+                <Link
+                  href=""
+                  className="hover:scale-110 transition-all duration-200 ease-in-out"
+                >
                   <FrIcon />{" "}
                 </Link>
-                <Link href="">
+                <Link
+                  href=""
+                  className="hover:scale-110 transition-all duration-200 ease-in-out"
+                >
                   <WrIcon />
                 </Link>
-                <Link href="">
+                <Link
+                  href=""
+                  className="hover:scale-110 transition-all duration-200 ease-in-out"
+                >
                   <IrIcon />
                 </Link>
-                <Link href="">
+                <Link
+                  href=""
+                  className="hover:scale-110 transition-all duration-200 ease-in-out"
+                >
                   <TrIcon />
                 </Link>
               </div>
@@ -61,18 +73,14 @@ const ManagementPage = () => {
       {/* cards */}
       <div className="bg-[#F2F2F2] pb-8 md:pb-20">
         <div className="pt-10 flex justify-center max-w-[285px] w-full mx-auto relative px-[12px]">
-          <Image
-            className="absolute left-[-4%] top-[37%]"
-            src="/img/Pattern.png"
-            width={50}
-            height={50}
-            alt="pattern"
-          />
+          <div className="absolute left-[3%] top-[40%] sm:left-[-4%] sm:top-[25%]">
+            <LogoIcon />
+          </div>
           <p className="text-[#FF9534] text-[30px] z-50 font-poppins  leading-normal font-semibold text-center  ">
             Meet Our Team
           </p>
         </div>
-        <div className="mx-auto flex flex-wrap justify-center gap-[90px] px-[12px] mt-[117px]">
+        <div className="mx-auto flex flex-wrap justify-center gap-x-[30px] gap-y-[90px] sm:gap-[90px] px-[12px] mt-[117px]">
           {Data.map((item, index) => (
             <div
               key={index}
@@ -96,16 +104,27 @@ const ManagementPage = () => {
                   key={listindex}
                   className="flex gap-[20px] mt-8  justify-center mx-auto "
                 >
-                  <Link href="">
+                  <Link
+                    href=""
+                    className="hover:scale-110 transition-all duration-200 ease-in-out"
+                  >
                     <div className="hover:cursor-pointer  hover:scale-110">
                       {listt.facebook}
                     </div>
                   </Link>
-                  <Link href="">
+                  <Link
+                    href=""
+                    className="hover:scale-110 transition-all duration-200 ease-in-out"
+                  >
                     <div className=" hover:scale-110">{listt.whatsapp}</div>
                   </Link>
                   <div className="hover:cursor-pointer hover:scale-110">
-                    <Link href="">{listt.insta}</Link>
+                    <Link
+                      href=""
+                      className="hover:scale-110 transition-all duration-200 ease-in-out"
+                    >
+                      {listt.insta}
+                    </Link>
                   </div>
                 </div>
               ))}
