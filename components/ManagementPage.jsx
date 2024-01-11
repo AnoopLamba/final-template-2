@@ -76,7 +76,7 @@ const ManagementPage = () => {
           <div className="absolute left-[3%] top-[40%] sm:left-[-4%] sm:top-[25%]">
             <LogoIcon />
           </div>
-          <p className="text-[#FF9534] text-[30px] z-50 font-poppins  leading-normal font-semibold text-center  ">
+          <p className="text-[#FF9534] text-[30px] z-50 font-poppins  leading-normal font-semibold text-center">
             Meet Our Team
           </p>
         </div>
