@@ -31,7 +31,9 @@ const Sidebar = ({ isMenuOpen, setIsMenuOpen }) => {
   return (
     // Sidebar Container
     <div
-      className={`z-10 fixed ${isMenuOpen && "inset-0"} bg-black bg-opacity-65`}
+      className={`z-[100] fixed ${
+        isMenuOpen && "inset-0"
+      } bg-black bg-opacity-65`}
     >
       {/* Sidebar */}
       <div
